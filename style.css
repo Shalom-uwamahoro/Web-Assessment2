@@ -157,49 +157,52 @@ border-top-right-radius:30px ;
     
     #nav{
         display: grid;
-        gap: 1%;
-        font-size: 10px;
+        gap: 2%;
+        font-size: 20px;
         margin-left: 0%;
+
     }
     
     .baims{
-        font-size: 10px;
+        font-size: 25px;
     
     }
     
     .courses{
-        padding-top: 16%;
+        padding-top: 6%;
+        font-size: 20px;
     }
     
     .searchInput{
         text-decoration: none;
         color: black;
-        font-size: 20px;
-        padding: 5px  20px;
-        border-radius: 20px;
-        margin-top: 4%;
+        font-size: 15px;
+        padding: 5px 10px;
+        border-radius: 10px;
+        margin-top: 2%;
     
     }
     
     #search{
         color: gray;
         position: absolute;
-        top: 4%; 
-        left: 10.7%;  
+        top: 2%; 
+        left: 3%;  
         text-align: center;
         cursor: pointer;
     }
     
     .instructor{
-        padding-top: 10%;
+        padding-top: 2%;
         cursor: pointer;
+        font-size: 20px;
        
     }
     
     .signin{
-    padding: 4px 15px;
+    padding: 4px 10px;
     font-size: 20px;
-    border-radius: 40px;
+    border-radius: 10px;
     border: none;
     margin-top: 0.5%;
     background-color: white;
@@ -207,9 +210,9 @@ border-top-right-radius:30px ;
     
     }
     .signup{
-    padding: 5px 15px;
-    border-radius: 40px;
-    font-size: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 20px;
     color: white;
     background-color: black;
     margin-top: 0%;
@@ -227,7 +230,7 @@ border-top-right-radius:30px ;
     .a{
         text-decoration: none;
         color: black;
-        font-size: 10px;
+        font-size: 20px;
         cursor: pointer;
     }
     
@@ -235,30 +238,30 @@ border-top-right-radius:30px ;
         display: flex;
         gap: 5%;
         margin-left: 0%;
-        margin-top: 0.5%;
+        margin-top: 8%;
         background-color: rgb(250,207,204);
         
     }
     
     .studyoptions{
-        font-size: 15px;
+        font-size: 20px;
         font-weight: bold;
         padding-top: 4%;
     }
     
     .numberOfcourses{
-      font-size: 11px;
+      font-size: 15px;
     }
     
     
     .landingpageImage{
         width:120px ;
-        height:100px ;
+        height:110px ;
     
     }
     
     .searchcourses{
-        font-size: 10px;
+        font-size: 20px;
         padding: 10px 30px;
         border-radius: 20px;
         cursor: pointer;
