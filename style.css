@@ -183,14 +183,6 @@ border-top-right-radius:30px ;
     
     }
     
-    #search{
-        color: gray;
-        position: absolute;
-        top: 2%; 
-        left: 3%;  
-        text-align: center;
-        cursor: pointer;
-    }
     
     .instructor{
         padding-top: 2%;
@@ -201,7 +193,7 @@ border-top-right-radius:30px ;
     
     .signin{
     padding: 4px 10px;
-    font-size: 20px;
+    font-size: 15px;
     border-radius: 10px;
     border: none;
     margin-top: 0.5%;
@@ -212,7 +204,7 @@ border-top-right-radius:30px ;
     .signup{
     padding: 5px 10px;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     background-color: black;
     margin-top: 0%;
@@ -244,7 +236,7 @@ border-top-right-radius:30px ;
     }
     
     .studyoptions{
-        font-size: 20px;
+        font-size: 15px;
         font-weight: bold;
         padding-top: 4%;
     }
@@ -261,21 +253,14 @@ border-top-right-radius:30px ;
     }
     
     .searchcourses{
-        font-size: 20px;
-        padding: 10px 30px;
+        font-size: 10px;
+        padding: 6px 20px;
         border-radius: 20px;
         cursor: pointer;
     }
     
-    #search2{
-        color: gray;
-        position: absolute;
-        cursor: pointer;
-        top: 30%; 
-        left: 3.7%; 
-        cursor: pointer; 
+   
     
-    }
     
     #ratings{
         display: flex;
