@@ -1,0 +1,517 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif, Arial, Helvetica;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+#backgroundcolor {
+  background-color: #fbcfcc;
+  color: #000;
+}
+
+#navigation{
+  padding-top: 5%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 100px;
+  background-color: #fbcfcc;
+  color: #000;
+}
+
+header * {
+  color: #000;
+  font-size: 16px;
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+#logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+.nav_search {
+  position: relative;
+}
+
+.nav_search>input {
+  border-radius: 15px;
+  border: 1px solid #000;
+  padding: 5px 0;
+  padding-left: 30px;
+  cursor: wait;
+}
+
+.nav_search>#search {
+  position: absolute;
+  left: 10px;
+  top: 6px;
+}
+
+.nav_buttons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+#instructor {
+  border-right: 1px solid #000;
+  padding-right: 30px;
+}
+
+#register {
+  border-radius: 15px;
+  background: #000;
+  color: #fff;
+  padding: 5px 16px;
+  cursor: pointer;
+}
+
+#home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 100px;
+  background-color: #fbcfcc;
+  color: #000;
+}
+
+#home>div {
+  flex: 1;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.home_title {
+  font-size: 62px;
+}
+
+.home_search {
+  position: relative;
+}
+
+.home_search>input {
+  border-radius: 15px;
+  border: 1px solid #000;
+  padding: 8px 0;
+  padding-left: 30px;
+  cursor: wait;
+}
+
+.home_search>#search {
+  position: absolute;
+  left: 10px;
+  top: 6px;
+}
+
+.hero_image {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero_image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+#statistics {
+  background-color: #fff;
+  padding: 30px 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+
+
+@media (min-width: 280px) and (max-width: 435px) {
+
+  header,
+  #home {
+      margin: 5px;
+  }
+
+  #navigation{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #logo {
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .nav_search>input {
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding: 1px 0;
+    padding-left: 4px;
+    cursor: wait;
+    text-align: center;
+    font-size: 8px;
+
+  }
+
+  .nav_search {
+    
+    padding: 2px 5px;
+    text-size-adjust: 5px;
+  }
+
+  .nav_buttons {
+    gap: 2px;
+    display: flex;
+    flex-direction: column;
+  }
+  #home_title{
+    font-size: 6px;
+  }
+
+ #search{
+ font-size: 8px;
+ margin-top: 2%;
+
+}
+  #register {
+    border-radius: 6px;
+    background: #000;
+    color: #fff;
+    font-size: 9px;
+    padding: 3px 6px;
+    cursor: pointer;
+  }
+
+  #login{
+    font-size: 9px;
+  }
+
+  #some_choice{
+    font-size: 9px;
+  }
+
+  #instructor {
+      border-right: 1px solid #000;
+      padding-right: 2px;
+      font-size: 9px;
+  }
+
+  #home {
+      flex-direction: column;
+      gap: 5px;
+  }
+
+  .home_title {
+    font-size: 13px;
+  }
+
+  .home_subtitle{
+    font-size: 11px;
+  }
+  
+  .intro {
+      align-items: center;
+      text-align: center;
+      margin-top: 5px;
+  }
+
+  .hero_image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .home_title {
+      font-size: 18px;
+  }
+
+  #statistics {
+      padding: 5px;
+      flex-wrap: wrap;
+      font-size: 8px;
+      gap: 2%;
+  }
+
+}
+
+
+@media (min-width: 436px) and (max-width: 768px) {
+
+  header,
+  #home {
+      margin: 10px;
+  }
+
+  .nav_search {
+      display: none;
+  }
+
+  .nav_buttons {
+      gap: 5px;
+  }
+
+  #instructor {
+      border-right: 1px solid #000;
+      padding-right: 5px;
+  }
+
+  #home {
+      flex-direction: column;
+      gap: 20px;
+  }
+
+  .intro {
+      align-items: center;
+      text-align: center;
+      margin-top: 20px;
+  }
+
+  .hero_image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .home_title {
+      font-size: 48px;
+  }
+
+  #statistics {
+      padding: 20px;
+      flex-wrap: wrap;
+  }
+}
+
+@media (min-width:769px) and (max-width:912px) {
+
+ header,
+  #home {
+      margin: 10px;
+  }
+
+  .nav_search {
+      display: none;
+  }
+
+  .nav_buttons {
+      gap: 5px;
+  }
+
+  #instructor {
+      border-right: 1px solid #000;
+      padding-right: 5px;
+  }
+
+  #home {
+      flex-direction: column;
+      gap: 20px;
+  }
+
+  .intro {
+      align-items: center;
+      text-align: center;
+      margin-top: 20px;
+  }
+
+  .hero_image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .home_title {
+      font-size: 48px;
+  }
+
+  #statistics {
+      padding: 20px;
+      flex-wrap: wrap;
+  }
+  
+}
+
+
+@media (min-width:913px) and (max-width:1280px) {
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, Arial, Helvetica;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  #backgroundcolor {
+    background-color: #fbcfcc;
+    color: #000;
+  }
+  
+  #navigation{
+    padding-top: 5%;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    background-color: #fbcfcc;
+    color: #000;
+  }
+  
+  header * {
+    color: #000;
+    font-size: 16px;
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .nav_search {
+    position: relative;
+  }
+  
+  .nav_search>input {
+    border-radius: 15px;
+    border: 1px solid #000;
+    padding: 5px 0;
+    padding-left: 30px;
+    cursor: wait;
+  }
+  
+  .nav_search>#search {
+    position: absolute;
+    left: 10px;
+    top: 6px;
+  }
+  
+  .nav_buttons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  #instructor {
+    border-right: 1px solid #000;
+    padding-right: 30px;
+  }
+  
+  #register {
+    border-radius: 15px;
+    background: #000;
+    color: #fff;
+    padding: 5px 16px;
+    cursor: pointer;
+  }
+  
+  #home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    background-color: #fbcfcc;
+    color: #000;
+  }
+  
+  #home>div {
+    flex: 1;
+  }
+  
+  .intro {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .home_title {
+    font-size: 62px;
+  }
+  
+  .home_search {
+    position: relative;
+  }
+  
+  .home_search>input {
+    border-radius: 15px;
+    border: 1px solid #000;
+    padding: 8px 0;
+    padding-left: 30px;
+    cursor: wait;
+  }
+  
+  .home_search>#search {
+    position: absolute;
+    left: 10px;
+    top: 6px;
+  }
+  
+  .hero_image {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .hero_image img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  #statistics {
+    background-color: #fff;
+    padding: 30px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+  
+  
+}
+
+
